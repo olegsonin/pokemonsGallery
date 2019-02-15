@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+.cards-container {
+  width: 200px;
+  margin: 0 auto;
+}
+.cards-search {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+}
+.cards-list {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+.card-image {
+  border-radius: 50%;
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+.card {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.card-info {
+  float: right;
+  width: 150px;
+  padding: 5px;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.card-name {
+  font-size: 18px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.card-clicked {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  background: #fff;
+  cursor: pointer;
+}
+.card-clicked~.card {
+  display: none;
+}
+
+.card-more {
+  margin-top: 100px;
+}
+.hidden {
+  display: none;
+}
